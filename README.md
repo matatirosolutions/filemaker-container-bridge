@@ -68,6 +68,7 @@ If you're installing this application on Windows (for example using the FileMake
 3. If you want to create a new file record when uploading `POST` to `https://server/api/file/upload/new` again with the file in the post variable `file`.
 
 ## Contact Details
-Steve Winter
-Matatiro Solutions
+
+Steve Winter  
+Matatiro Solutions  
 steve@msdev.co.uk
