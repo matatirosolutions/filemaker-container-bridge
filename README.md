@@ -11,7 +11,7 @@ It was originally built to support integration of container data when using [FM 
 ## Installation
 
 1. Clone (or download and unzip) this repo to your web server (at a minimum it will need to support PHP 7.1.x) You could run this application under the FileMNaker web root of your server so long as you were using FileMaker server 18 or greater (which has the necessary version of PHP). For earlier FileMaker versions you'll need to either upgrade the version of PHP, or run this on another server.
-2. `composer install` to install dependencies. If you don't have composer already installed on the machine you're installing to see [the composer intall page](https://getcomposer.org/download/)
+2. `composer install` to install dependencies. If you don't have composer already installed on the machine you're installing to see [the composer install page](https://getcomposer.org/download/)
 
 For reference manually installing an application to a server as is described above, and configuring it as below, isn't necessarily the best way to go about things you'll probably want to use something like Ansible or Chef to help you with this, but these instructions are intended to help you 'get started'. Where you head from there is up to you :-) 
        
