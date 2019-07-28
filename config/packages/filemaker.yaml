@@ -1,0 +1,3 @@
+doctrine_file_maker_driver:
+    javascript_translations: false
+    valuelist_layout: ~

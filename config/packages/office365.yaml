@@ -1,0 +1,4 @@
+parameters:
+  oauth.appId: '%env(string:OAUTH_APP_ID)%'
+  oauth.appPassword: '%env(string:OAUTH_APP_PASSWORD)%'
+  oauth.scopes: '%env(string:OAUTH_SCOPES)%'
