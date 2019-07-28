@@ -1,10 +1,12 @@
 # FileMaker container bridge
 
-This application will allow you to upload and download container data from your hosted FileMaker solution.
+This application will allow you to upload and download container data from your hosted FileMaker solution using the FileMaker Data API for FileMaker Server versions 17+.
 
 It presumes that it will be able to connect to a single (configurable) layout in a FileMaker solution which contains the container you wish to push content into and / or retrieve it from. The script will require sufficient privileges to modify records in that table if you are uploading data. The account that you use can (and should) be limited to only that capability.
 
 You can also have the script create new records in your `Files` table but at present it isn't possible to set any additional parameters with that request so this may nopt be very useful (i.e. you can't set other keys to associate the new file with other entities in your solution).
+
+It was originally built to support integration of container data when using [FM BetterForms](https://fmbetterforms.com/). Thanks to [Recruiting Pro](http://recruitingprosoftware.com/) for allowing me to open source this code.
 
 ## Installation
 
